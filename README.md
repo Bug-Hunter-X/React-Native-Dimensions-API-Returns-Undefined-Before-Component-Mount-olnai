@@ -1,0 +1,3 @@
+This repository demonstrates a common issue in React Native development related to the `Dimensions` API.  The problem occurs when attempting to access screen dimensions before the component has fully mounted. This can lead to unexpected behavior, such as undefined dimensions or incorrect layout calculations.
+
+The `IncorrectDimensions.js` file illustrates the problematic approach.  The `CorrectDimensions.js` file provides a solution using `useEffect` and `Dimensions` API to ensure dimensions are obtained after component mounting.
